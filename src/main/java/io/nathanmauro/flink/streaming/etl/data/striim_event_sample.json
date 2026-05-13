@@ -1,0 +1,11 @@
+{
+  "TxnID": "PLACEHOLDER_TXN_ID",
+  "dateTime": "2022-01-01T00:00:00.000-00:00",
+  "data": {
+    "0": "PLACEHOLDER_VALUE"
+  },
+  "metadata": {
+    "TableName": "PLACEHOLDER_SCHEMA.PLACEHOLDER_TABLE",
+    "TxnUserID": "PLACEHOLDER_USER_ID"
+  }
+}

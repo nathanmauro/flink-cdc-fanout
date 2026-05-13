@@ -1,0 +1,22 @@
+{
+  "index_patterns": [
+    "dms_business_entity"
+  ],
+  "priority": 0,
+  "template": {
+    "mappings": {
+      "properties": {
+        "location" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        }
+      }
+    }
+
+  }
+}

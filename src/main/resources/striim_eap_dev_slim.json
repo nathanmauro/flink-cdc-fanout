@@ -1,0 +1,20 @@
+{
+  "before": {
+    "PLACEHOLDER_COL_1": "PLACEHOLDER_VALUE"
+  },
+  "data": {
+    "PLACEHOLDER_COL_1": "PLACEHOLDER_VALUE"
+  },
+  "metadata": {
+    "TableName": "PLACEHOLDER_SCHEMA.PLACEHOLDER_TABLE",
+    "TableSpace": "PLACEHOLDER_TABLESPACE",
+    "TxnUserID": "PLACEHOLDER_USER_ID",
+    "OperationName": "UPDATE",
+    "OperationType": "DML",
+    "TimeStamp": "2022-01-01T00:00:00.000-00:00"
+  },
+  "__striimmetadata": {
+    "position": "PLACEHOLDER_POSITION"
+  },
+  "userdata": ""
+}

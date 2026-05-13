@@ -1,0 +1,1 @@
+aws opensearch update-domain-config --domain-name PLACEHOLDER_ES_DOMAIN --region us-east-1 --advanced-security-options '{ "Enabled": true, "InternalUserDatabaseEnabled":true, "AnonymousAuthEnabled": true}'

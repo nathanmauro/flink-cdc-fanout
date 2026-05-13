@@ -1,0 +1,8 @@
+#HOST https://PLACEHOLDER_ES_DOMAIN.us-east-1.es.amazonaws.com/
+HOST https://PLACEHOLDER_ES_DOMAIN.us-east-1.es.amazonaws.com/
+Timeout 3000
+Authorization "PLACEHOLDER_COGNITO_JWT_BEARER_TOKEN"
+
+GET /dev_test_1
+
+GET /dms_business_entity/_search

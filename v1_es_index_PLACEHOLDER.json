@@ -1,0 +1,101 @@
+{
+  "PLACEHOLDER_INDEX" : {
+    "aliases" : { },
+    "mappings" : {
+      "properties" : {
+        "PLACEHOLDER_COL_TEXT_1" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "PLACEHOLDER_COL_LONG_1" : {
+          "type" : "long"
+        },
+        "PLACEHOLDER_COL_FLOAT_1" : {
+          "type" : "float"
+        },
+        "PLACEHOLDER_COL_DATE_1" : {
+          "type" : "date"
+        },
+        "location" : {
+          "properties" : {
+            "lat" : {
+              "type" : "float"
+            },
+            "lon" : {
+              "type" : "float"
+            }
+          }
+        },
+        "metadata" : {
+          "properties" : {
+            "operation" : {
+              "type" : "text",
+              "fields" : {
+                "keyword" : {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                }
+              }
+            },
+            "partition-key-type" : {
+              "type" : "text",
+              "fields" : {
+                "keyword" : {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                }
+              }
+            },
+            "record-type" : {
+              "type" : "text",
+              "fields" : {
+                "keyword" : {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                }
+              }
+            },
+            "schema-name" : {
+              "type" : "text",
+              "fields" : {
+                "keyword" : {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                }
+              }
+            },
+            "table-name" : {
+              "type" : "text",
+              "fields" : {
+                "keyword" : {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                }
+              }
+            },
+            "timestamp" : {
+              "type" : "date"
+            }
+          }
+        }
+      }
+    },
+    "settings" : {
+      "index" : {
+        "creation_date" : "0",
+        "number_of_shards" : "5",
+        "number_of_replicas" : "1",
+        "uuid" : "PLACEHOLDER_UUID",
+        "version" : {
+          "created" : "135227827"
+        },
+        "provided_name" : "PLACEHOLDER_INDEX"
+      }
+    }
+  }
+}

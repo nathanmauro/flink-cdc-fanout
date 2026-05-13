@@ -1,0 +1,85 @@
+{
+  "PLACEHOLDER_INDEX" : {
+    "aliases" : { },
+    "mappings" : {
+      "properties": {
+        "PLACEHOLDER_COL_TEXT_1": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "PLACEHOLDER_COL_INT_1": {
+          "type": "integer"
+        },
+        "PLACEHOLDER_COL_DOUBLE_1": {
+          "type": "double"
+        },
+        "location": {
+          "type": "geo_point"
+        },
+        "metadata": {
+          "properties": {
+            "record-type": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword",
+                  "ignore_above": 256
+                }
+              }
+            },
+            "partition-key-type": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword",
+                  "ignore_above": 256
+                }
+              }
+            },
+            "table-name": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword",
+                  "ignore_above": 256
+                }
+              }
+            },
+            "operation": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword",
+                  "ignore_above": 256
+                }
+              }
+            },
+            "schema-name": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword",
+                  "ignore_above": 256
+                }
+              }
+            },
+            "timestamp": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword",
+                  "ignore_above": 256
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

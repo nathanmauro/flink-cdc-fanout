@@ -1,0 +1,21 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::PLACEHOLDER_AWS_ACCOUNT_ID:role/aws-reserved/sso.amazonaws.com/PLACEHOLDER_IAM_ROLE"
+      },
+      "Action": "es:*",
+      "Resource": "arn:aws:es:us-east-1:PLACEHOLDER_AWS_ACCOUNT_ID:domain/*"
+    },
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "*"
+      },
+      "Action": "es:*",
+      "Resource": "arn:aws:es:us-east-1:PLACEHOLDER_AWS_ACCOUNT_ID:domain/PLACEHOLDER_ES_DOMAIN/*"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "metadata":	{
+    "timestamp":	"2022-01-01T00:00:00.000000Z",
+    "record-type":	"control",
+    "operation":	"drop-table",
+    "partition-key-type":	"task-id",
+    "schema-name":	"PLACEHOLDER_SCHEMA",
+    "table-name":	"PLACEHOLDER_TABLE"
+  }
+}

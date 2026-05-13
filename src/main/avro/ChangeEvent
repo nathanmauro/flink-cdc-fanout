@@ -1,0 +1,166 @@
+{
+  "type" : "record",
+  "name" : "ChangeEvent",
+  "namespace" : "io.nathanmauro.flink.streaming.etl.data",
+  "fields" : [ {
+    "name" : "dateTime",
+    "type" : "string"
+  }, {
+    "name" : "metadataType",
+    "type" : {
+      "type" : "record",
+      "name" : "Metadata",
+      "namespace" : "io.nathanmauro.flink.streaming.etl.data",
+      "fields" : [ {
+        "name" : "RbaSqn",
+        "type" : "string"
+      }, {
+        "name" : "AuditSessionId",
+        "type" : "string"
+      }, {
+        "name" : "TableSpace",
+        "type" : "string"
+      }, {
+        "name" : "CURRENTSCN",
+        "type" : "string"
+      }, {
+        "name" : "SQLRedoLength",
+        "type" : "int"
+      }, {
+        "name" : "ParentTxnID",
+        "type" : "string"
+      }, {
+        "name" : "SRC_CON_NAME",
+        "type" : "string"
+      }, {
+        "name" : "Status",
+        "type" : "string"
+      }, {
+        "name" : "SegmentName",
+        "type" : "string"
+      }, {
+        "name" : "TimeStamp",
+        "type" : "string"
+      }, {
+        "name" : "TableName",
+        "type" : "string"
+      }, {
+        "name" : "TxnID",
+        "type" : "string"
+      }, {
+        "name" : "COMMIT_TIMESTAMP",
+        "type" : "string"
+      }, {
+        "name" : "OperationType",
+        "type" : "string"
+      }, {
+        "name" : "DBTimeStamp",
+        "type" : "long"
+      }, {
+        "name" : "TransactionName",
+        "type" : "string"
+      }, {
+        "name" : "BytesProcessed",
+        "type" : "string"
+      }, {
+        "name" : "OperationCode",
+        "type" : "int"
+      }, {
+        "name" : "SessionInfo",
+        "type" : "string"
+      }, {
+        "name" : "RecordSetID",
+        "type" : "string"
+      }, {
+        "name" : "DBCommitTimestamp",
+        "type" : "long"
+      }, {
+        "name" : "COMMITSCN",
+        "type" : "string"
+      }, {
+        "name" : "SEQUENCE",
+        "type" : "string"
+      }, {
+        "name" : "Rollback",
+        "type" : "string"
+      }, {
+        "name" : "STARTSCN",
+        "type" : "string"
+      }, {
+        "name" : "OperationName",
+        "type" : "string"
+      }, {
+        "name" : "RbaBlk",
+        "type" : "int"
+      }, {
+        "name" : "SSN",
+        "type" : "string"
+      }, {
+        "name" : "TxnUserID",
+        "type" : "string"
+      }, {
+        "name" : "SegmentType",
+        "type" : "string"
+      }, {
+        "name" : "Serial",
+        "type" : "string"
+      }, {
+        "name" : "ThreadID",
+        "type" : "string"
+      }, {
+        "name" : "ROWID",
+        "type" : "string"
+      }, {
+        "name" : "SCN",
+        "type" : "string"
+      }, {
+        "name" : "Session",
+        "type" : "string"
+      } ]
+    }
+  }, {
+    "name" : "data",
+    "type" : {
+      "type" : "map",
+      "values" : "string"
+    }
+  }, {
+    "name" : "before",
+    "type" : {
+      "type" : "map",
+      "values" : "string"
+    }
+  }, {
+    "name" : "typeUUID",
+    "type" : "string"
+  }, {
+    "name" : "dataPresenceBitMap",
+    "type" : {
+      "type" : "map",
+      "values" : "long"
+    }
+  }, {
+    "name" : "__striimmetadata",
+    "type" : {
+      "type" : "record",
+      "name" : "Striimmetadata",
+      "namespace" : "io.nathanmauro.flink.streaming.etl.data",
+      "fields" : [ {
+        "name" : "position",
+        "type" : "string"
+      } ]
+    }
+  }, {
+    "name" : "userdata",
+    "type" : "string"
+  }, {
+    "name" : "TxnID",
+    "type" : "string"
+  }, {
+    "name" : "beforePresenceBitMap",
+    "type" : {
+      "type" : "map",
+      "values" : "long"
+    }
+  } ]
+}

@@ -1,0 +1,17 @@
+.idea
+*.iml
+*.iws
+*.ipr
+
+target/
+dependency-reduced-pom.xml
+
+cdk/cdk.out/
+cdk/node_modules/
+cdk/*.js
+cdk/*.d.ts
+!cdk/jest.config.js
+
+misc/debug
+
+.DS_Store

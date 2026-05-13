@@ -1,0 +1,48 @@
+{
+  "type" : "record",
+  "name" : "DmsEventLoc",
+  "namespace" : "io.nathanmauro.flink.streaming.etl.events",
+  "fields" : [
+    {
+    "name" : "metadata",
+    "type" : {
+      "name" : "Metadata",
+      "type": "map",
+      "values": "string",
+      "fields" : [ {
+        "name" : "record-type",
+        "type" : "string"
+      }, {
+        "name" : "schema-name",
+        "type" : "string"
+      }, {
+        "name" : "table-name",
+        "type" : "string"
+      }, {
+        "name" : "partition-key-type",
+        "type" : "string"
+      }, {
+        "name" : "operation",
+        "type" : "string"
+      }, {
+        "name" : "timestamp",
+        "type" : "string"
+      } ]
+    }
+  },
+    {
+      "name": "location",
+      "type": {
+        "type": "array",
+        "items":["float", "null"]
+      }
+    },
+    {
+      "name" : "data",
+      "type": {
+        "type" : "map",
+        "values" : ["string", "int", "float", "double"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "Striim event schema (placeholder)",
+  "default": {},
+  "examples": [
+    {
+      "metadata": {
+        "TableName": "PLACEHOLDER_SCHEMA.PLACEHOLDER_TABLE",
+        "TxnUserID": "PLACEHOLDER_USER_ID"
+      },
+      "data": {
+        "PLACEHOLDER_COL_1": "PLACEHOLDER_VALUE"
+      },
+      "before": {}
+    }
+  ],
+  "required": [
+    "metadata",
+    "data"
+  ],
+  "properties": {
+    "metadata": {
+      "type": "object"
+    },
+    "data": {
+      "type": "object"
+    },
+    "before": {
+      "type": "object"
+    }
+  }
+}

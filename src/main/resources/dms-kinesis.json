@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "metadata": {
+        "timestamp": "2022-01-01T00:00:00.000000Z",
+        "record-type": "control",
+        "operation": "drop-table",
+        "partition-key-type": "task-id",
+        "schema-name": "PLACEHOLDER_SCHEMA",
+        "table-name": "PLACEHOLDER_TABLE"
+      }
+    },
+    {
+      "data": {
+        "PLACEHOLDER_COL_1": 0,
+        "PLACEHOLDER_COL_2": "PLACEHOLDER_VALUE",
+        "SCRTY_SVC_USER_ID": "PLACEHOLDER_USER_ID",
+        "DIRECTORY_KEY": "PLACEHOLDER_USER_EMAIL"
+      },
+      "metadata": {
+        "timestamp": "2022-01-01T00:00:00.000000Z",
+        "record-type": "data",
+        "operation": "load",
+        "partition-key-type": "primary-key",
+        "schema-name": "PLACEHOLDER_SCHEMA",
+        "table-name": "PLACEHOLDER_TABLE"
+      }
+    }
+  ]
+}
